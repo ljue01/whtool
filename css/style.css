@@ -21,6 +21,9 @@ header{
 	position: relative;
 	float: left;
 }
+header img{
+	width: 280px;
+}
 .scale-box{
 	width: 100%;
 	position: relative;
@@ -32,13 +35,14 @@ header{
 	cursor: pointer;
 	font-size: 24px;
 	color: var(--second-color);
-	padding: 8px 16px;
+	padding: 8px 14px;
 	background-color: #f6f6f6;
 	border-radius: var(--border-radius);
 	margin-right: 16px;
 	border: 1px solid #ffffff;
 	box-sizing: border-box;
-	transition: 1s;
+	transition-property: border,background-color,color;
+	transition-duration: 1s,1s,1s;
 }
 .scale-box a:last-child{
 	margin-right: 0;
