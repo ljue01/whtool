@@ -1,0 +1,16 @@
+{
+  "id": "3334524",
+  "name": "whtool",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1223259",
+      "name": "copy",
+      "font_class": "copy",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    }
+  ]
+}

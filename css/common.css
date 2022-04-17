@@ -1,0 +1,48 @@
+:root{
+	--main-color: #000000;
+	--second-color: #383838;
+	--border-radius: 4px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+	/* transition: 0.3s; */
+}
+body,html{
+	font-size: 14pt;
+	color: var(--main-color);
+	font-family: "microsoft yahei","arial, helvetica, sans-serif";
+	font-weight: 400;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+img{
+	border: none;
+}
+input{
+	outline: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.icon{
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+.mt24{
+	margin-top: 24px;
+}
+.mt48{
+	margin-top: 48px;
+}
+.none{
+	display: none;
+}
