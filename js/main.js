@@ -1,5 +1,6 @@
 $(function($){
 	
+	let heightClien = document.body.clientHeight;
 	$('#about').click(function(){
 		let aboutPop ='<div class="pop-box none"></div>';
 		let aboutBox = 
@@ -21,13 +22,13 @@ $(function($){
 			'</div>';
 		$('body').append(aboutPop);
 		$('body').append(aboutBox);
-		$('.pop-box').fadeIn(500);
+		$('.pop-box').css('height',heightClien+'px').fadeIn(500);
 		$('.about-box').slideDown(500);
 	});
 	
 	$('body').delegate('.pop-box','click',function(){
 		$('.about-box').slideUp(500);
-		$('.pop-box').fadeOut(500);
+		$('.pop-box').css('height',heightClien+'px').fadeOut(500);
 		setTimeout(function(){
 			$('.pop-box').remove();
 			$('.about-box').remove();
@@ -116,5 +117,5 @@ $(function($){
 			$('#w-inp').val(widthVal.toFixed());
 		}
 	}
-	
+
 })
