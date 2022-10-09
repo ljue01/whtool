@@ -6,9 +6,6 @@ $(function($){
 		let aboutBox = 
 			'<div class="about-box none">'+
 				'<p>在设计时，经常要算配图的宽高比例多少合适，计算器的话，要按好多下，本人比较懒，因此写了个脚本好偷懒...这个项目是开源的，代码在 <a class="git-link" target="_blank" href="https://github.com/ljue01/whtool">GitHub</a> 上。</p>'+
-				'<p>公众号里有记录的设计和前端方面的文章、教程，可以关注一下。</p>'+
-				'<p>QQ群的话，有一群设计师、程序员在一块玩耍，欢迎加入，群里公告也有微信群的二维码也可以加入。</p>'+
-				'<p>Happy End</p>'+
 				'<div class="about-img-box">'+
 					'<div class="about-img">'+
 						'<img src="img/wxgzh.png" alt="公众号">'+
@@ -19,6 +16,9 @@ $(function($){
 						'<label class="inp-name">QQ群：707467840</label>'+
 					'</div>'+
 				'</div>'+
+				'<p>公众号里有记录的设计和前端方面的文章、教程，可以关注一下。</p>'+
+				'<p>QQ群的话，有一群设计师、程序员在一块玩耍，欢迎加入，群里公告也有微信群的二维码也可以加入。</p>'+
+				'<p>Happy End</p>'+
 			'</div>';
 		$('body').append(aboutPop);
 		$('body').append(aboutBox);
