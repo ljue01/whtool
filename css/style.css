@@ -126,7 +126,7 @@ footer{
 	background-color: rgba(0,0,0,0.2);
 	z-index: 10;
 }
-.about-box{
+.about-box,.like-box{
 	width: 375px;
 	height: 525px;
 	position: absolute;
@@ -141,9 +141,13 @@ footer{
 	z-index: 999;
 	overflow: hidden;
 }
+.like-box{
+	height: 330px;
+}
 p{
 	margin-bottom: 24px;
 	line-height: 1.5;
+	float: left;
 }
 .git-link{
 	font-weight: 700;
@@ -153,12 +157,16 @@ p{
 .git-link:hover{
 	text-decoration: underline;
 }
-.about-img-box{
+.about-img-box,.like-img-box{
 	width: 100%;
 	position: relative;
 	float: left;
 	margin-top: 16px;
 	margin-bottom: 24px;
+}
+.like-img-box{
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .about-img{
 	width: 50%;

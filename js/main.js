@@ -5,7 +5,7 @@ $(function($){
 		let aboutPop ='<div class="pop-box none"></div>';
 		let aboutBox = 
 			'<div class="about-box none">'+
-				'<p>在设计时，经常要算配图的宽高比例多少合适，计算器的话，要按好多下，本人比较懒，因此写了个脚本好偷懒...这个项目是开源的，代码在 <a class="git-link" target="_blank" href="https://github.com/ljue01/whtool">GitHub</a> 上。</p>'+
+				'<p>在设计时，经常要算配图的宽高比例多少合适，计算器的话，要按好多下，本人比较懒，因此写了个脚本好偷懒...</p>'+
 				'<div class="about-img-box">'+
 					'<div class="about-img">'+
 						'<img src="img/wxgzh.png" alt="公众号">'+
@@ -26,12 +26,38 @@ $(function($){
 		$('.about-box').slideDown(500);
 	});
 	
+	$('#like').click(function(){
+		let likePop ='<div class="pop-box none"></div>';
+		let likeBox = 
+			'<div class="like-box none">'+
+				'<p>WHTOOL是一个设计师辅助小工具，如果你喜欢它，可以推广给你的设计师小伙伴，也可以通过打赏支持一下。</p>'+
+				'<div class="like-img-box">'+
+					'<div class="about-img">'+
+						'<img src="img/zfb.png" alt="支付宝">'+
+						'<label class="inp-name">支付宝</label>'+
+					'</div>'+
+					'<div class="about-img">'+
+						'<img src="./img/wx.png" alt="微信支付">'+
+						'<label class="inp-name">微信支付</label>'+
+					'</div>'+
+				'</div>'+
+			'</div>';
+		$('body').append(likePop);
+		$('body').append(likeBox);
+		$('.pop-box').css('height',heightClien+'px').fadeIn(500);
+		$('.like-box').slideDown(500);
+	});
+	
+	
+	
 	$('body').delegate('.pop-box','click',function(){
 		$('.about-box').slideUp(500);
+		$('.like-box').slideUp(500);
 		$('.pop-box').css('height',heightClien+'px').fadeOut(500);
 		setTimeout(function(){
 			$('.pop-box').remove();
 			$('.about-box').remove();
+			$('.like-box').remove();
 		},500);
 	});
 	
