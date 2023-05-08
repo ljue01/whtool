@@ -4,6 +4,9 @@ A tool for calculating the aspect ratio of an image.
 
 一款宽高比例计算工具。
 
+### WHTOOL Sites
+[whtool - 宽高比例计算工具](https://whtool.liujueyi.cn/)
+
 
 ### 公众号：设计师工作日常
 
