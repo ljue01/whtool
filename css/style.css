@@ -128,7 +128,6 @@ footer{
 }
 .about-box,.like-box{
 	width: 375px;
-	height: 525px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -163,6 +162,8 @@ p{
 	float: left;
 	margin-top: 16px;
 	margin-bottom: 24px;
+	display: flex;
+	justify-content: center;
 }
 .like-img-box{
 	margin-top: 0;

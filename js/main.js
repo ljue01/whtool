@@ -11,14 +11,9 @@ $(function($){
 						'<img src="img/wxgzh.png" alt="公众号">'+
 						'<label class="inp-name">公众号：设计师工作日常</label>'+
 					'</div>'+
-					'<div class="about-img">'+
-						'<img src="./img/qqqun.png" alt="QQ群">'+
-						'<label class="inp-name">QQ群：707467840</label>'+
-					'</div>'+
 				'</div>'+
 				'<p>公众号里有记录的设计和前端方面的文章、教程，可以关注一下。</p>'+
-				'<p>QQ群的话，有一群设计师、程序员在一块玩耍，欢迎加入，群里公告也有微信群的二维码也可以加入。</p>'+
-				'<p>TG群：<a style="color: #3a6dd5;" href="https://t.me/+I263gKFsWFBmZGVl" target="_blank">点击加入Telegram群</a></p>'+
+				'<p style="margin-bottom: 0;">TG群：<a style="color: #3a6dd5;" href="https://t.me/+I263gKFsWFBmZGVl" target="_blank">点击加入Telegram群</a></p>'+
 			'</div>';
 		$('body').append(aboutPop);
 		$('body').append(aboutBox);
