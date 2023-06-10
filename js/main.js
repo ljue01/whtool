@@ -13,7 +13,7 @@ $(function($){
 					'</div>'+
 				'</div>'+
 				'<p>公众号里有记录的设计和前端方面的文章、教程，可以关注一下。</p>'+
-				'<p style="margin-bottom: 0;">TG群：<a style="color: #3a6dd5;" href="https://t.me/+I263gKFsWFBmZGVl" target="_blank">点击加入Telegram群</a></p>'+
+				'<p style="margin-bottom: 0;">电报频道：<a style="color: #3a6dd5;" href="https://t.me/designer_work_share" target="_blank">设计师工作日常© 频道</a></p>'+
 			'</div>';
 		$('body').append(aboutPop);
 		$('body').append(aboutBox);
