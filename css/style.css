@@ -118,6 +118,14 @@ footer{
 .text-link:hover{
 	color: var(--main-color);
 }
+.pv-num{
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	color: var(--second-color);
+	margin-top: 24px;
+}
 .pop-box{
 	width: 100vw;
 	position: absolute;
