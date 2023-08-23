@@ -5,14 +5,14 @@ $(function($){
 		let aboutPop ='<div class="pop-box none"></div>';
 		let aboutBox = 
 			'<div class="about-box none">'+
-				'<p>在设计时，经常要算配图的宽高比例多少合适，计算器的话，要按好多下，本人比较懒，因此写了个脚本好偷懒...</p>'+
+				'<p>一款计算图片宽度和高度的辅助设计师的在线工具</p>'+
 				'<div class="about-img-box">'+
 					'<div class="about-img">'+
 						'<img src="img/wxgzh.png" alt="公众号">'+
 						'<label class="inp-name">公众号：设计师工作日常</label>'+
 					'</div>'+
 				'</div>'+
-				'<p>公众号里有记录的设计和前端方面的文章、教程，可以关注一下。</p>'+
+				'<p style="width: 100%;">个人微博：<a style="color: #3a6dd5;" href="https://weibo.com/u/1849041452" target="_blank">@Just041</a></p>'+
 				'<p style="margin-bottom: 0;">电报频道：<a style="color: #3a6dd5;" href="https://t.me/designer_work_share" target="_blank">设计师工作日常© 频道</a></p>'+
 			'</div>';
 		$('body').append(aboutPop);
