@@ -169,7 +169,7 @@ footer{
 	background-color: rgba(0,0,0,0.2);
 	z-index: 10;
 }
-.about-box,.like-box,.sponsor-box{
+.about-box,.like-box,.hb-box{
 	width: 375px;
 	height: 393px;
 	position: absolute;
@@ -187,7 +187,7 @@ footer{
 .like-box{
 	height: 330px;
 }
-.sponsor-box{
+.hb-box{
 	height: 656px;
 }
 p{
