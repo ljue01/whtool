@@ -175,7 +175,7 @@ footer{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%,-44%);
 	padding: 40px 24px;
 	box-sizing: border-box;
 	background-color: #ffffff;
