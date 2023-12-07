@@ -270,3 +270,9 @@ p{
 		margin-right: 0;
 	}
 }
+
+@media screen and (min-width: 376px) and (max-width:480px){
+	.pop-icon{
+		display: none;
+	}
+}
