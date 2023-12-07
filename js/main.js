@@ -5,14 +5,14 @@ $(function($){
 		let aboutPop ='<div class="pop-box none"></div>';
 		let aboutBox = 
 			'<div class="about-box none">'+
-				'<p>在设计时，经常要算配图的宽高比例多少合适，计算器的话，要按好多下，本人比较懒，因此写了个脚本好偷懒...</p>'+
+				'<p>一款计算图片宽度和高度的辅助设计师的在线工具</p>'+
 				'<div class="about-img-box">'+
 					'<div class="about-img">'+
 						'<img src="img/wxgzh.png" alt="公众号">'+
 						'<label class="inp-name">公众号：设计师工作日常</label>'+
 					'</div>'+
 				'</div>'+
-				'<p>公众号里有记录的设计和前端方面的文章、教程，可以关注一下。</p>'+
+				'<p style="width: 100%;">个人微博：<a style="color: #3a6dd5;" href="https://weibo.com/u/1849041452" target="_blank">@Just041</a></p>'+
 				'<p style="margin-bottom: 0;">电报频道：<a style="color: #3a6dd5;" href="https://t.me/designer_work_share" target="_blank">设计师工作日常© 频道</a></p>'+
 			'</div>';
 		$('body').append(aboutPop);
@@ -42,27 +42,27 @@ $(function($){
 		$('.pop-box').css('height',heightClien+'px').fadeIn(500);
 		$('.like-box').slideDown(500);
 	});
-	
-	$('#sponsor-btn').click(function(){
-			let sponsorPop ='<div class="pop-box none"></div>';
-			let sponsorBox = 
-				'<div class="sponsor-box none">'+
-					'<p>因为个人运营网站，这个入口是希望大家能免费的支持一下本站的运营。</p>'+
-					'<p>如果您觉得这个网站还不错，可以打开支付宝扫一扫下面的红包码，在您领取一些红包的同时，也可以支持和帮助一下本站。</p>'+			
-					'<p>此致！敬礼！</p>'+
-					'<div class="like-img-box">'+
-						'<div class="about-img">'+
-							'<img src="img/zfbhb.png" alt="支付宝红包">'+
-							'<label class="inp-name">- 扫码领红包 -</label>'+
-						'</div>'+
+
+
+	$('#sponsor').click(function(){
+		let sponsorPop ='<div class="pop-box none"></div>';
+		let sponsorBox = 
+			'<div class="sponsor-box none">'+
+				'<p>因为个人运营网站，这个入口是希望大家能免费的支持一下本站的运营。</p>'+
+				'<p>如果您觉得这个网站还不错，可以打开支付宝扫一扫下面的红包码，在您领取一些红包的同时，也可以支持和帮助一下本站。</p>'+			
+				'<p>此致！敬礼！</p>'+
+				'<div class="like-img-box">'+
+					'<div class="about-img">'+
+						'<img src="img/zfbhb.png" alt="支付宝红包">'+
+						'<label class="inp-name">- 扫码领红包 -</label>'+
 					'</div>'+
-				'</div>';
-			$('body').append(sponsorPop);
-			$('body').append(sponsorBox);
-			$('.pop-box').css('height',heightClien+'px').fadeIn(500);
-			$('.sponsor-box').slideDown(500);
-		});
-	
+				'</div>'+
+			'</div>';
+		$('body').append(sponsorPop);
+		$('body').append(sponsorBox);
+		$('.pop-box').css('height',heightClien+'px').fadeIn(500);
+		$('.sponsor-box').slideDown(500);
+	});
 	
 	
 	$('body').delegate('.pop-box','click',function(){
