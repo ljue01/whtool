@@ -171,6 +171,7 @@ footer{
 }
 .about-box,.like-box,.sponsor-box{
 	width: 375px;
+	height: 393px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -187,7 +188,7 @@ footer{
 	height: 330px;
 }
 .sponsor-box{
-	height: 658px;
+	height: 656px;
 }
 p{
 	margin-bottom: 24px;
