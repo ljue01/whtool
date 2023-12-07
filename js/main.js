@@ -44,7 +44,7 @@ $(function($){
 	});
 
 
-	$('#sponsor').click(function(){
+	$('#sponsor-btn').click(function(){
 		let sponsorPop ='<div class="pop-box none"></div>';
 		let sponsorBox = 
 			'<div class="sponsor-box none">'+
