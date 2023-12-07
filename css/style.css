@@ -242,9 +242,6 @@ p{
 }
 
 @media screen and (max-width:375px){
-	.pop-icon{
-		display: none;
-	}
 	.main{
 		width: 100%;
 	}
@@ -271,7 +268,7 @@ p{
 	}
 }
 
-@media screen and (min-width: 376px) and (max-width:480px){
+@media screen and (max-width:480px){
 	.pop-icon{
 		display: none;
 	}
