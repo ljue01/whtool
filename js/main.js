@@ -43,16 +43,38 @@ $(function($){
 		$('.like-box').slideDown(500);
 	});
 	
+	$('#sponsor').click(function(){
+		let sponsorPop ='<div class="pop-box none"></div>';
+		let sponsorBox = 
+			'<div class="sponsor-box none">'+
+				'<p>因为个人运营网站，这个入口是希望大家能免费的支持一下本站的运营。</p>'+
+				'<p>如果您觉得这个网站还不错，可以打开支付宝扫一扫下面的红包码，在您领取一些红包的同时，也可以支持和帮助一下本站。</p>'+			
+				'<p>此致！敬礼！</p>'+
+				'<div class="like-img-box">'+
+					'<div class="about-img">'+
+						'<img src="img/zfbhb.png" alt="支付宝红包">'+
+						'<label class="inp-name">- 扫码领红包 -</label>'+
+					'</div>'+
+				'</div>'+
+			'</div>';
+		$('body').append(sponsorPop);
+		$('body').append(sponsorBox);
+		$('.pop-box').css('height',heightClien+'px').fadeIn(500);
+		$('.sponsor-box').slideDown(500);
+	});
+	
 	
 	
 	$('body').delegate('.pop-box','click',function(){
 		$('.about-box').slideUp(500);
 		$('.like-box').slideUp(500);
+		$('.sponsor-box').slideUp(500);
 		$('.pop-box').css('height',heightClien+'px').fadeOut(500);
 		setTimeout(function(){
 			$('.pop-box').remove();
 			$('.about-box').remove();
 			$('.like-box').remove();
+			$('.sponsor-box').remove();
 		},500);
 	});
 	
