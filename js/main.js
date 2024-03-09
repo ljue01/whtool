@@ -53,7 +53,7 @@ $(function($){
 				'<p>此致！敬礼！</p>'+
 				'<div class="like-img-box">'+
 					'<div class="about-img">'+
-						'<img src="img/zfbhb.png" alt="支付宝红包">'+
+						'<img src="https://appshare.liujueyi.cn/imgs/zfbhb.png" alt="支付宝红包">'+
 						'<label class="inp-name">- 扫码领红包 -</label>'+
 					'</div>'+
 				'</div>'+
