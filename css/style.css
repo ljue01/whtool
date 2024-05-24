@@ -147,7 +147,8 @@ footer{
 	color: var(--second-color);
 	display: flex;
 	justify-content: space-between;
-	padding: 0 40px;
+	padding: 20px 40px;
+	margin-top: 28px;
 	box-sizing: border-box;
 }
 footer aside > *{
