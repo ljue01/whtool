@@ -13,7 +13,7 @@ $(function($){
 					'</div>'+
 				'</div>'+
 				'<p style="width: 100%;">个人微博：<a style="color: #3a6dd5;" href="https://weibo.com/u/1849041452" target="_blank">@Just041</a></p>'+
-				'<p style="margin-bottom: 0;">电报频道：<a style="color: #3a6dd5;" href="https://t.me/designer_work_share" target="_blank">设计师工作日常© 频道</a></p>'+
+				'<p style="margin-bottom: 0;">个人网站：<a style="color: #3a6dd5;" href="https://www.liujueyi.cn" target="_blank">设计师工作日常</a></p>'+
 			'</div>';
 		$('body').append(aboutPop);
 		$('body').append(aboutBox);
