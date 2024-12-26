@@ -166,12 +166,13 @@ footer aside > *{
 	color: var(--second-color);
 }
 .pop-box{
-	width: 100vw;
+	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	background-color: rgba(0,0,0,0.2);
 	z-index: 10;
+	box-sizing: border-box;
 }
 .about-box,.like-box,.hb-box{
 	width: 375px;
