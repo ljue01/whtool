@@ -64,6 +64,12 @@ header img{
 	max-width: 280px;
 	box-sizing: border-box;
 }
+.ads-box{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .scale-box{
 	width: 100%;
 	position: relative;
