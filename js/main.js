@@ -12,7 +12,7 @@ $(function($){
 						'<label class="inp-name">公众号：设计师工作日常</label>'+
 					'</div>'+
 				'</div>'+
-				'<p style="width: 100%;">个人微博：<a style="color: #3a6dd5;" href="https://weibo.com/u/1849041452" target="_blank">@Just041</a></p>'+
+				'<p style="width: 100%;">TG频道：<a style="color: #3a6dd5;" href="https://t.me/designer_work_share" target="_blank">@designer_work_share</a></p>'+
 				'<p style="margin-bottom: 0;">个人网站：<a style="color: #3a6dd5;" href="https://www.liujueyi.cn" target="_blank">決義工記</a></p>'+
 			'</div>';
 		$('body').append(aboutPop);
